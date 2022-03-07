@@ -21,13 +21,13 @@ public class Lingkaran implements MenghitungBidang {
 
     @Override
     public double hitungLuas() {
-        hasilLuas = PHI * (jari * jari);
+        hasilLuas = phi * (jari * jari);
         return hasilLuas;
     }
 
     @Override
     public double hitungKeliling() {
-        return hasilKeliling = PHI * (2 * jari);
+        return hasilKeliling = phi * (2 * jari);
     }
 }
 

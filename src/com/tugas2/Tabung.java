@@ -22,13 +22,13 @@ public class Tabung extends Lingkaran implements MenghitungRuang {
     @Override
     public double hitungVolume() {
 
-        return PHI * (super.getJari() * super.getJari()) * tinggi;
+        return phi * (super.getJari() * super.getJari()) * tinggi;
     }
 
     @Override
     public double hitungLuasPermukaan() {
 
-        return 2 * (PHI * super.getJari()) * (super.getJari() + tinggi);
+        return 2 * (phi * super.getJari()) * (super.getJari() + tinggi);
     }
 
 }
